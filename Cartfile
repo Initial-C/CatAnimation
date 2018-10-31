@@ -1,0 +1,5 @@
+github "Initial-C/Cribug"
+#github "AFNetworking/AFNetworking"
+#github "aliyun/aliyun-oss-ios-sdk" ~> 2.6.0
+#github "SVProgressHUD/SVProgressHUD" ~> 2.0.4
+#git "https://gitee.com/cribug/NetworkForYanxi.git"

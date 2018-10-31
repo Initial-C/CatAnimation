@@ -1,0 +1,17 @@
+# references:
+# * http://www.objc.io/issue-6/travis-ci.html
+# * https://github.com/supermarin/xcpretty#usage
+
+language: swift
+os: osx
+osx_image: xcode8.3
+
+env:
+  matrix:
+    - TEST_TYPE=iOS
+-before_install:
+ - |
+    gem install xcpretty -N --no-ri --no-rdoc
+script:
+- |
+- set -o pipefail && xcodebuild clean test -workspace Example/CAlert.xcworkspace -scheme CAlert -destination 'platform=iOS Simulator,name=iPhone 6s,OS=10.3' -enableCodeCoverage YES | xcpretty

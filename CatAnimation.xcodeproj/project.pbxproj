@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52813E4D2170A4BC00D60E96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52813E4C2170A4BC00D60E96 /* AppDelegate.swift */; };
+		52813E4F2170A4BC00D60E96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52813E4E2170A4BC00D60E96 /* ViewController.swift */; };
+		52813E522170A4BC00D60E96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52813E502170A4BC00D60E96 /* Main.storyboard */; };
+		52813E542170A4BE00D60E96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52813E532170A4BE00D60E96 /* Assets.xcassets */; };
+		52813E572170A4BE00D60E96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52813E552170A4BE00D60E96 /* LaunchScreen.storyboard */; };
+		52813E722170A71200D60E96 /* default_load_gpic.gif in Resources */ = {isa = PBXBuildFile; fileRef = 52813E6A2170A71100D60E96 /* default_load_gpic.gif */; };
+		52813E732170A71200D60E96 /* mia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 52813E6B2170A71100D60E96 /* mia.mp3 */; };
+		52813E7B2170A7D900D60E96 /* UIImage+cImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 52813E7A2170A7D900D60E96 /* UIImage+cImage.m */; };
+		52813E7E2174370C00D60E96 /* AnimateCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52813E7C2174370C00D60E96 /* AnimateCell.swift */; };
+		52813E7F2174370C00D60E96 /* AnimateCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52813E7D2174370C00D60E96 /* AnimateCell.xib */; };
+		52813E8621743D8E00D60E96 /* cat4.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52813E8021743D8E00D60E96 /* cat4.bundle */; };
+		52813E8721743D8E00D60E96 /* cat5.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52813E8121743D8E00D60E96 /* cat5.bundle */; };
+		52813E8821743D8E00D60E96 /* cat6.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52813E8221743D8E00D60E96 /* cat6.bundle */; };
+		52813E8921743D8E00D60E96 /* cat3.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52813E8321743D8E00D60E96 /* cat3.bundle */; };
+		52813E8A21743D8E00D60E96 /* cat1.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52813E8421743D8E00D60E96 /* cat1.bundle */; };
+		52813E8B21743D8E00D60E96 /* cat2.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 52813E8521743D8E00D60E96 /* cat2.bundle */; };
+		E8068EF05FDDE514898E432E /* Pods_CatAnimation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB509EBDB9B2F21C78DBB12 /* Pods_CatAnimation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		196CF31948A351A84D4C40ED /* Pods-CatAnimation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatAnimation.release.xcconfig"; path = "Target Support Files/Pods-CatAnimation/Pods-CatAnimation.release.xcconfig"; sourceTree = "<group>"; };
+		52813E492170A4BC00D60E96 /* CatAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52813E4C2170A4BC00D60E96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52813E4E2170A4BC00D60E96 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		52813E512170A4BC00D60E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52813E532170A4BE00D60E96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52813E562170A4BE00D60E96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52813E582170A4BE00D60E96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52813E6A2170A71100D60E96 /* default_load_gpic.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = default_load_gpic.gif; sourceTree = "<group>"; };
+		52813E6B2170A71100D60E96 /* mia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mia.mp3; sourceTree = "<group>"; };
+		52813E782170A7D800D60E96 /* CatAnimation-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CatAnimation-Bridging-Header.h"; sourceTree = "<group>"; };
+		52813E792170A7D900D60E96 /* UIImage+cImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+cImage.h"; sourceTree = "<group>"; };
+		52813E7A2170A7D900D60E96 /* UIImage+cImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+cImage.m"; sourceTree = "<group>"; };
+		52813E7C2174370C00D60E96 /* AnimateCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimateCell.swift; sourceTree = "<group>"; };
+		52813E7D2174370C00D60E96 /* AnimateCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnimateCell.xib; sourceTree = "<group>"; };
+		52813E8021743D8E00D60E96 /* cat4.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = cat4.bundle; sourceTree = "<group>"; };
+		52813E8121743D8E00D60E96 /* cat5.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = cat5.bundle; sourceTree = "<group>"; };
+		52813E8221743D8E00D60E96 /* cat6.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = cat6.bundle; sourceTree = "<group>"; };
+		52813E8321743D8E00D60E96 /* cat3.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = cat3.bundle; sourceTree = "<group>"; };
+		52813E8421743D8E00D60E96 /* cat1.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = cat1.bundle; sourceTree = "<group>"; };
+		52813E8521743D8E00D60E96 /* cat2.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = cat2.bundle; sourceTree = "<group>"; };
+		ED6B394955EC4E7B90551246 /* Pods-CatAnimation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatAnimation.debug.xcconfig"; path = "Target Support Files/Pods-CatAnimation/Pods-CatAnimation.debug.xcconfig"; sourceTree = "<group>"; };
+		EFB509EBDB9B2F21C78DBB12 /* Pods_CatAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52813E462170A4BC00D60E96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8068EF05FDDE514898E432E /* Pods_CatAnimation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52813E402170A4BC00D60E96 = {
+			isa = PBXGroup;
+			children = (
+				52813E4B2170A4BC00D60E96 /* CatAnimation */,
+				52813E4A2170A4BC00D60E96 /* Products */,
+				F8CC835D44939E859196DB02 /* Frameworks */,
+				8452CC20CFB33DDC396A053B /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		52813E4A2170A4BC00D60E96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52813E492170A4BC00D60E96 /* CatAnimation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52813E4B2170A4BC00D60E96 /* CatAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				52813E772170A7CC00D60E96 /* ObjC */,
+				52813E4C2170A4BC00D60E96 /* AppDelegate.swift */,
+				52813E4E2170A4BC00D60E96 /* ViewController.swift */,
+				52813E7C2174370C00D60E96 /* AnimateCell.swift */,
+				52813E7D2174370C00D60E96 /* AnimateCell.xib */,
+				52813E662170A55E00D60E96 /* CatResources */,
+				52813E502170A4BC00D60E96 /* Main.storyboard */,
+				52813E532170A4BE00D60E96 /* Assets.xcassets */,
+				52813E552170A4BE00D60E96 /* LaunchScreen.storyboard */,
+				52813E582170A4BE00D60E96 /* Info.plist */,
+			);
+			path = CatAnimation;
+			sourceTree = "<group>";
+		};
+		52813E662170A55E00D60E96 /* CatResources */ = {
+			isa = PBXGroup;
+			children = (
+				52813E8421743D8E00D60E96 /* cat1.bundle */,
+				52813E8521743D8E00D60E96 /* cat2.bundle */,
+				52813E8321743D8E00D60E96 /* cat3.bundle */,
+				52813E8021743D8E00D60E96 /* cat4.bundle */,
+				52813E8121743D8E00D60E96 /* cat5.bundle */,
+				52813E8221743D8E00D60E96 /* cat6.bundle */,
+				52813E6A2170A71100D60E96 /* default_load_gpic.gif */,
+				52813E6B2170A71100D60E96 /* mia.mp3 */,
+			);
+			path = CatResources;
+			sourceTree = "<group>";
+		};
+		52813E772170A7CC00D60E96 /* ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				52813E792170A7D900D60E96 /* UIImage+cImage.h */,
+				52813E7A2170A7D900D60E96 /* UIImage+cImage.m */,
+				52813E782170A7D800D60E96 /* CatAnimation-Bridging-Header.h */,
+			);
+			path = ObjC;
+			sourceTree = "<group>";
+		};
+		8452CC20CFB33DDC396A053B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ED6B394955EC4E7B90551246 /* Pods-CatAnimation.debug.xcconfig */,
+				196CF31948A351A84D4C40ED /* Pods-CatAnimation.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F8CC835D44939E859196DB02 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EFB509EBDB9B2F21C78DBB12 /* Pods_CatAnimation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52813E482170A4BC00D60E96 /* CatAnimation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52813E5B2170A4BE00D60E96 /* Build configuration list for PBXNativeTarget "CatAnimation" */;
+			buildPhases = (
+				C2416A6D0A20D5B9F812AE79 /* [CP] Check Pods Manifest.lock */,
+				52813E452170A4BC00D60E96 /* Sources */,
+				52813E462170A4BC00D60E96 /* Frameworks */,
+				52813E472170A4BC00D60E96 /* Resources */,
+				4E80385DB32BE837BFC2B4FF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatAnimation;
+			productName = CatAnimation;
+			productReference = 52813E492170A4BC00D60E96 /* CatAnimation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52813E412170A4BC00D60E96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = InitialC;
+				TargetAttributes = {
+					52813E482170A4BC00D60E96 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 52813E442170A4BC00D60E96 /* Build configuration list for PBXProject "CatAnimation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52813E402170A4BC00D60E96;
+			productRefGroup = 52813E4A2170A4BC00D60E96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52813E482170A4BC00D60E96 /* CatAnimation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52813E472170A4BC00D60E96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52813E8721743D8E00D60E96 /* cat5.bundle in Resources */,
+				52813E722170A71200D60E96 /* default_load_gpic.gif in Resources */,
+				52813E8A21743D8E00D60E96 /* cat1.bundle in Resources */,
+				52813E8921743D8E00D60E96 /* cat3.bundle in Resources */,
+				52813E8621743D8E00D60E96 /* cat4.bundle in Resources */,
+				52813E8821743D8E00D60E96 /* cat6.bundle in Resources */,
+				52813E7F2174370C00D60E96 /* AnimateCell.xib in Resources */,
+				52813E572170A4BE00D60E96 /* LaunchScreen.storyboard in Resources */,
+				52813E732170A71200D60E96 /* mia.mp3 in Resources */,
+				52813E8B21743D8E00D60E96 /* cat2.bundle in Resources */,
+				52813E542170A4BE00D60E96 /* Assets.xcassets in Resources */,
+				52813E522170A4BC00D60E96 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E80385DB32BE837BFC2B4FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CatAnimation/Pods-CatAnimation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYCache/YYCache.framework",
+				"${BUILT_PRODUCTS_DIR}/YYImage/YYImage.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+				"${BUILT_PRODUCTS_DIR}/YYUtility/YYUtility.framework",
+				"${BUILT_PRODUCTS_DIR}/YYWebImage/YYWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYCache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYUtility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CatAnimation/Pods-CatAnimation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2416A6D0A20D5B9F812AE79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CatAnimation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52813E452170A4BC00D60E96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52813E4F2170A4BC00D60E96 /* ViewController.swift in Sources */,
+				52813E7B2170A7D900D60E96 /* UIImage+cImage.m in Sources */,
+				52813E4D2170A4BC00D60E96 /* AppDelegate.swift in Sources */,
+				52813E7E2174370C00D60E96 /* AnimateCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52813E502170A4BC00D60E96 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52813E512170A4BC00D60E96 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52813E552170A4BE00D60E96 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52813E562170A4BE00D60E96 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52813E592170A4BE00D60E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52813E5A2170A4BE00D60E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52813E5C2170A4BE00D60E96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED6B394955EC4E7B90551246 /* Pods-CatAnimation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53DA7ZAKF8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = CatAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muta.cat.CatAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CatAnimation/ObjC/CatAnimation-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52813E5D2170A4BE00D60E96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196CF31948A351A84D4C40ED /* Pods-CatAnimation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 53DA7ZAKF8;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = CatAnimation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.muta.cat.CatAnimation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CatAnimation/ObjC/CatAnimation-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52813E442170A4BC00D60E96 /* Build configuration list for PBXProject "CatAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52813E592170A4BE00D60E96 /* Debug */,
+				52813E5A2170A4BE00D60E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52813E5B2170A4BE00D60E96 /* Build configuration list for PBXNativeTarget "CatAnimation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52813E5C2170A4BE00D60E96 /* Debug */,
+				52813E5D2170A4BE00D60E96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52813E412170A4BC00D60E96 /* Project object */;
+}
